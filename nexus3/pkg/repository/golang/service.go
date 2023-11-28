@@ -1,8 +1,8 @@
 package golang
 
 import (
-	"github.com/datadrivers/go-nexus-client/nexus3/pkg/client"
-	"github.com/datadrivers/go-nexus-client/nexus3/pkg/repository/common"
+	"github.com/dre2004/go-nexus-client/nexus3/pkg/client"
+	"github.com/dre2004/go-nexus-client/nexus3/pkg/repository/common"
 )
 
 const (

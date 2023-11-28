@@ -20,6 +20,6 @@ repos:
       - id: go-imports-repo
         args:
           - "-w"
-      # FIX ME: See https://github.com/datadrivers/go-nexus-client/issues/122
+      # FIX ME: See https://github.com/dre2004/go-nexus-client/issues/122
       # - id: go-vet
       # - id: golangci-lint-mod

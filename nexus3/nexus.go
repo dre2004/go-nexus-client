@@ -1,11 +1,11 @@
 package nexus3
 
 import (
-	"github.com/datadrivers/go-nexus-client/nexus3/pkg/blobstore"
-	"github.com/datadrivers/go-nexus-client/nexus3/pkg/client"
-	"github.com/datadrivers/go-nexus-client/nexus3/pkg/readonly"
-	"github.com/datadrivers/go-nexus-client/nexus3/pkg/repository"
-	"github.com/datadrivers/go-nexus-client/nexus3/pkg/security"
+	"github.com/dre2004/go-nexus-client/nexus3/pkg/blobstore"
+	"github.com/dre2004/go-nexus-client/nexus3/pkg/client"
+	"github.com/dre2004/go-nexus-client/nexus3/pkg/readonly"
+	"github.com/dre2004/go-nexus-client/nexus3/pkg/repository"
+	"github.com/dre2004/go-nexus-client/nexus3/pkg/security"
 )
 
 const (

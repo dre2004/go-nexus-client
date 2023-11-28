@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/datadrivers/go-nexus-client/nexus3/pkg/tools"
-	"github.com/datadrivers/go-nexus-client/nexus3/schema/repository"
+	"github.com/dre2004/go-nexus-client/nexus3/pkg/tools"
+	"github.com/dre2004/go-nexus-client/nexus3/schema/repository"
 	"github.com/stretchr/testify/assert"
 )
 

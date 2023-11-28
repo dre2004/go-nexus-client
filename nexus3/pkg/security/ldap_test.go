@@ -3,7 +3,7 @@ package security
 import (
 	"testing"
 
-	"github.com/datadrivers/go-nexus-client/nexus3/schema/security"
+	"github.com/dre2004/go-nexus-client/nexus3/schema/security"
 	"github.com/stretchr/testify/assert"
 )
 

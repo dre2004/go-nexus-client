@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/datadrivers/go-nexus-client/nexus3/pkg/client"
-	"github.com/datadrivers/go-nexus-client/nexus3/pkg/tools"
-	"github.com/datadrivers/go-nexus-client/nexus3/schema/blobstore"
+	"github.com/dre2004/go-nexus-client/nexus3/pkg/client"
+	"github.com/dre2004/go-nexus-client/nexus3/pkg/tools"
+	"github.com/dre2004/go-nexus-client/nexus3/schema/blobstore"
 )
 
 type BlobStoreGroupService client.Service

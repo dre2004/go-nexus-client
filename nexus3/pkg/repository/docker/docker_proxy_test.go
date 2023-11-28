@@ -38,6 +38,7 @@ func getTestDockerProxyRepository(name string) repository.DockerProxyRepository 
 		Docker: repository.Docker{
 			ForceBasicAuth: true,
 			V1Enabled:      false,
+			SubDomain:      name,
 			HTTPPort:       tools.GetIntPointer(8280),
 			HTTPSPort:      tools.GetIntPointer(8643),
 		},

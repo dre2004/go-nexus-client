@@ -57,7 +57,7 @@ type Docker struct {
 	// Whether to allow clients to use the V1 API to interact with this repository
 	V1Enabled bool `json:"v1Enabled"`
 	// Sub-domain to use for this repository
-	SubDomain string `json:"subdomain"`
+	SubDomain string `json:"subdomain,omitempty"`
 }
 
 // DockerProxy contains data of a Docker Proxy Repository

@@ -25,6 +25,7 @@ func getTestDockerGroupRepository(name string) repository.DockerGroupRepository 
 		Docker: repository.Docker{
 			ForceBasicAuth: true,
 			V1Enabled:      false,
+			SubDomain:      name,
 			HTTPPort:       tools.GetIntPointer(8080),
 			HTTPSPort:      tools.GetIntPointer(8443),
 		},

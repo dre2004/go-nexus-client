@@ -30,6 +30,7 @@ func getTestDockerHostedRepository(name string) repository.DockerHostedRepositor
 		Docker: repository.Docker{
 			ForceBasicAuth: true,
 			V1Enabled:      false,
+			SubDomain:      name,
 			HTTPPort:       tools.GetIntPointer(8180),
 			HTTPSPort:      tools.GetIntPointer(8543),
 		},

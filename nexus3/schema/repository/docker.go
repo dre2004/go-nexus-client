@@ -56,8 +56,8 @@ type Docker struct {
 	HTTPSPort *int `json:"httpsPort,omitempty"`
 	// Whether to allow clients to use the V1 API to interact with this repository
 	V1Enabled bool `json:"v1Enabled"`
-	// Use sub-domain routing for this repository
-	SubDomain *string `json:"subdomain"`
+	// Sub-domain to use for this repository
+	SubDomain string `json:"subdomain"`
 }
 
 // DockerProxy contains data of a Docker Proxy Repository
